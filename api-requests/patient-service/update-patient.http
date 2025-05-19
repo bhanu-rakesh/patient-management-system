@@ -1,0 +1,13 @@
+### update patient details
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+  "name": "bhanu rakesh",
+  "address": "MTM",
+  "dateOfBirth": "2001-06-08",
+  "email": "bhanurakesh_update@2208gmail.com"
+}
+
+###
